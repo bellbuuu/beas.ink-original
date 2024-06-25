@@ -1,0 +1,116 @@
+body{
+    background-color: black;
+    color:white;
+    font-family: "Montserrat", sans-serif;
+    
+}
+.container{
+    padding: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.header{
+    display:flex;
+    justify-content: space-between;
+}
+.name{
+    font-size: 25px;
+    cursor:pointer;
+}
+.contact{
+    padding-top:25px ;
+    border:none;
+    outline:none;
+    background-color: black;
+    font-size: 25px;
+    color:white;
+    cursor: pointer;
+}
+.dropdown a{
+    display:block;
+    color:lightpink;
+    text-decoration: none;
+    padding:7px;
+    font-size: 25px;
+}
+.links{
+    display: none;
+    position: absolute;
+    background-color: black;
+    text-align: right;
+    box-shadow:-2px 2px 5px lightpink;
+}
+.dropdown:hover .links{
+    display:block;
+}
+.proverbs{
+    display:flex;
+}
+.projects{
+    display: flex;
+}
+.apiprojects{
+    display: flex;
+}
+.vowel{
+    cursor:pointer;
+    padding-right: 20px;
+}
+.vowel:hover{
+    transform: scale(1.03);
+}
+.snake{
+    cursor:pointer;
+    padding-right: 20px;
+}
+.snake:hover{
+    transform:scale(1.03);
+}
+.website:hover{
+    transform:scale(1.03);
+}
+.recipe{
+    cursor:pointer;
+    padding-right: 20px;
+}
+.recipe:hover{
+    transform: scale(1.03);
+}
+.weather{
+    cursor:pointer;
+    padding-right: 20px;
+}
+.weather:hover{
+    transform: scale(1.03);
+}
+.wordpress{
+    font-weight: bold;
+    display:flex;
+   
+}
+.wordpress a{
+    padding-right: 20px;
+}
+.wordpress a:hover{
+    transform:scale(1.03);
+}
+.myblog:hover{
+    transform:scale(1.01);
+}
+.foot{
+    text-align: center;
+}
+.beas{
+    display:flex;
+    justify-content: space-between;
+}
+.game{
+    text-align: center;
+    align-content: center;
+}
+.cat:hover{
+    transform: scale(1.03);
+    border-style: solid;
+    border-width: 5px;
+    border-color: lightpink;
+}
